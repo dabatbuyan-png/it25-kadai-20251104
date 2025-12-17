@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.31.6)
 project(C_Git_Homework)
 
 set(CMAKE_CXX_STANDARD 20)

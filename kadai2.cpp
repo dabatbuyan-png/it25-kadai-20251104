@@ -2,5 +2,9 @@
 
 double bmi(double height_m, double weight) {
     // TODO: 実装
-    return 0.0;
+    if (weight == 0) {
+        return 0.0;
+    }
+    return height_m * weight / weight;
+
 }

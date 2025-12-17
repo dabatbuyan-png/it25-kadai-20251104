@@ -5,9 +5,9 @@ char grade(int score) {
         return 'A';
     } else if (score > 60) {
         return 'B';
-    } else if (score > 12) {
+    } else if (score > 40) {
         return 'C';
-    }
-    return 'F';
+    } else if (score > 0) {
+        return 'F';
     }
 }
